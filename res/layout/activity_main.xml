@@ -1,0 +1,22 @@
+<ScrollView
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.stocksearch.MainActivity$PlaceholderFragment" > 
+    
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <ListView
+    		android:id="@+id/list"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:textSize="12sp" />
+    </LinearLayout>
+
+</ScrollView>
+
